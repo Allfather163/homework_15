@@ -1,5 +1,6 @@
 package com.allfather.calculator;
 
+@Service
 public interface CalculatorService {
     String hello();
 

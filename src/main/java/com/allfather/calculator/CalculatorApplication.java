@@ -1,13 +1,18 @@
 package com.allfather.calculator;
 
+@SpringBootApplication
+public class CalculatorApplication {
+
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-public class CalculatorApplication {
+	public class CalculatorApplication {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 
-		SpringApplication.run(CalculatorApplication.class, args);
+			SpringApplication.run(CalculatorApplication.class, args);
+		}
+
 	}
-
 }
